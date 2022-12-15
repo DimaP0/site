@@ -1,12 +1,4 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <title>valkyrie</title>
-    </head>
-    <body background=1234.jpg text="white">
-    
-    <div text-align="">
+<div text-align="">
         <table border="">
             <tr><img src="valkyrie.png" align="left" height="800px"></tr>
             <tr><p align="right">
@@ -27,4 +19,3 @@
         </table>
         
     </div>
-    </body>

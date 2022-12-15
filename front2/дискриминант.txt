@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="hw2.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        <meta charset="UTF-8">
+        <style>
+            div
+            {
+                color: aliceblue;
+                padding: 15px;
+                margin: 10px;
+                
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                
+            }
+            .text
+            {
+                background-color: rgba(0, 0, 0, 0.397); 
+                border-radius: 10px;
+            }
+            
+            .col {
+                width: 25%;
+                height: 20%;
+                text-align: center;
+                border-radius: 20px;
+                margin: 0px;
+                padding: 0px;
+            }
+            img
+            {
+                width: 150px;
+                height: 150px;
+                
+            }
+            a:hover{color: rgb(148, 209, 241); background-color: aliceblue; transition-duration: 2s;}
+            a
+            {
+                color: aliceblue;
+            }
+        </style>
+    </head>
+    <body background="1234.jpg" >
+    <div>
+        <h5><center>Что такое R6S?</center></h5><br>
+
+        <div class="text">
+            &nbsp;&nbsp;&nbsp;
+            R6S - это тактический шутер от первого лица, разработанный Ubisoft для Windows, Xbox One и PlayStation 4. 
+            Игра была анонсирована Ubisoft 9 июня 2014 года на E3 и выпущена 1 декабря 2015 года, а ровно через пять лет,
+             1 декабря 2020 года, игра вышла для PlayStation 5 и Xbox Series X/S. Проект стал преемником закрытого Patriots. 
+             В геймплее сделан упор на разрушаемость окружающей обстановки и тактическое взаимодействие игроков.
+        </div>
+    </div>
+    <div>
+        &nbsp;&nbsp;&nbsp;
+            Освойте искусство разрушения и использования устройств в Rainbow Six Осада. Игроков ждут напряженные бои на коротких дистанциях и открытом пространстве. Новая часть серии игр Tom Clancy’s Rainbow Six выводит жаркие перестрелки, сноровку и опыт, тактическое планирование и соревновательный аспект на новый уровень.
+            Освойте искусство разрушения и использования устройств в Rainbow Six Осада. Игроков ждут напряженные бои на коротких дистанциях и открытом пространстве. Новая часть серии игр Tom Clancy’s Rainbow Six выводит жаркие перестрелки, сноровку и опыт, тактическое планирование и соревновательный аспект на новый уровень.
+            Освойте искусство разрушения и использования устройств в Rainbow Six Осада. Игроков ждут напряженные бои на коротких дистанциях и открытом пространстве. Новая часть серии игр Tom Clancy’s Rainbow Six выводит жаркие перестрелки, сноровку и опыт, тактическое планирование и соревновательный аспект на новый уровень.
+            Освойте искусство разрушения и использования устройств в Rainbow Six Осада. Игроков ждут напряженные бои на коротких дистанциях и открытом пространстве. Новая часть серии игр Tom Clancy’s Rainbow Six выводит жаркие перестрелки, сноровку и опыт, тактическое планирование и соревновательный аспект на новый уровень.
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col l3 m6 s12 ">
+                <a href="valkyrie.html"><center>Valkyrie<br><img src="эмблемы/valc.png"></center></a>
+            </div>
+            <div class="col l3 m6 s12 ">
+                <a href=""><center>Jager<br><img src="эмблемы/jager.png"></center></a>
+            </div>
+            <div class="col l3 m6 s12 ">
+                <a href=""><center>Ace<br><img src="эмблемы/ace.png"></center></a>
+            </div>
+            <div class="col l3 m6 s12 ">
+                <a href=""><center>Fuze<br><img src="эмблемы/fuze.png"></center></a
+            </div>
+        </div>
+    </div>
+    <script>
+        alert("Введите соответствкющие коэффициенты уравнения y =  Аx^2 + Bx + C" )
+        let a = Number(prompt("Введите к. А из уравнения"))
+        let b = Number(prompt("Введите к. B из уравнения"))
+        let c = Number(prompt("Введите к. C из уравнения"))
+        if (b*b-4*a*c > 0)
+        {
+            alert("x1 = " + ((-b + Math.pow(b*b-4*a*c, 0.5)) /2 / a ) + "      " + "x2 = " + ((-b - Math.pow(b*b-4*a*c, 0.5)) /2 / a ))
+        }    
+        else if (b*b-4*a*c === 0){
+            alert("x = " + ((-b + Math.pow(b*b-4*a*c, 0.5)) /2 / a ))
+        }
+        else{alert("Уравнение не имеет действительных корней или не являетя квадратным")}
+    
+    </script>
+    </body>
+</html>
